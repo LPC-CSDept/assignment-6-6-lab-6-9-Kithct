@@ -5,16 +5,16 @@
 using namespace std;
 
 // complete the function maxmin( )
-int getinput(int &,int &,int &)
+void getinput(int &,int &,int &)
 {
     int n1,n2,n3;
     cin>>n1>>n2>>n3;
 }
-int maxmin(int,int,int,int &,int &)
+void maxmin(int,int,int,int &,int &)
 {
     int n1,n2,n3;
     int max,min;
-    max=min=n1;
+    max=min;
     if(n1>n2)
     {
         min=n2;
